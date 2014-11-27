@@ -1,15 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>core Module &mdash; NSLS2 0 documentation</title>
+    <title>core Module &mdash; scikit-xray 0 documentation</title>
     
-    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootswatch-3.2.0/spacelab/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -23,191 +24,71 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="NSLS2 0 documentation" href="../../index.html" />
-    <link rel="up" title="API" href="index.html" />
-    <link rel="next" title="nsls2.core.MD_dict" href="generated/nsls2.core.MD_dict.html" />
-    <link rel="prev" title="API" href="index.html" /> 
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="scikit-xray 0 documentation" href="../../index.html" />
+    <link rel="up" title="Complete Referece (API)" href="index.html" />
+    <link rel="next" title="skxray.core.MD_dict" href="generated/skxray.core.MD_dict.html" />
+    <link rel="prev" title="Complete Referece (API)" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
   </head>
-  <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="../../genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="../../py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="../../np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="generated/nsls2.core.MD_dict.html" title="nsls2.core.MD_dict"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="index.html" title="API"
-             accesskey="P">previous</a> |</li>
-        <li><a href="../../index.html">NSLS2 0 documentation</a> &raquo;</li>
-          <li><a href="index.html" accesskey="U">API</a> &raquo;</li> 
-      </ul>
-    </div>  
+  <body>
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
-            
-  <div class="section" id="core-module">
-<h1><code class="xref py py-mod docutils literal"><span class="pre">core</span></code> Module<a class="headerlink" href="#core-module" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="helper-classes">
-<h2>Helper Classes<a class="headerlink" href="#helper-classes" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="dictionary-like-classes">
-<h3>Dictionary-like classes<a class="headerlink" href="#dictionary-like-classes" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.MD_dict.html#nsls2.core.MD_dict" title="nsls2.core.MD_dict"><code class="xref py py-obj docutils literal"><span class="pre">MD_dict</span></code></a>([md_dict])</td>
-<td>A class to make dealing with the meta-data scheme for DataExchange easier</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.verbosedict.html#nsls2.core.verbosedict" title="nsls2.core.verbosedict"><code class="xref py py-obj docutils literal"><span class="pre">verbosedict</span></code></a></td>
-<td>A sub-class of dict which raises more verbose errors if a key is not found.</td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.RCParamDict.html#nsls2.core.RCParamDict" title="nsls2.core.RCParamDict"><code class="xref py py-obj docutils literal"><span class="pre">RCParamDict</span></code></a>()</td>
-<td>A class to make dealing with storing default values easier.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="section" id="image-warping-functions">
-<h2>Image warping functions<a class="headerlink" href="#image-warping-functions" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">detector2D_to_1D</span></code></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.pixel_to_radius.html#nsls2.core.pixel_to_radius" title="nsls2.core.pixel_to_radius"><code class="xref py py-obj docutils literal"><span class="pre">pixel_to_radius</span></code></a>(shape,&nbsp;calibrated_center[,&nbsp;...])</td>
-<td>Converts pixel positions to radius from the calibrated center</td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.pixel_to_phi.html#nsls2.core.pixel_to_phi" title="nsls2.core.pixel_to_phi"><code class="xref py py-obj docutils literal"><span class="pre">pixel_to_phi</span></code></a>(shape,&nbsp;calibrated_center[,&nbsp;...])</td>
-<td>Converts pixel positions to <span class="math">\(\phi\)</span>, the angle from vertical.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="image-pre-processing">
-<h2>Image pre-processing<a class="headerlink" href="#image-pre-processing" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">img_subtraction_pre</span></code></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="histograms-and-integration">
-<h2>Histograms and Integration<a class="headerlink" href="#histograms-and-integration" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="binning">
-<h3>Binning<a class="headerlink" href="#binning" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.bin_1D.html#nsls2.core.bin_1D" title="nsls2.core.bin_1D"><code class="xref py py-obj docutils literal"><span class="pre">bin_1D</span></code></a>(x,&nbsp;y[,&nbsp;nx,&nbsp;min_x,&nbsp;max_x])</td>
-<td>Bin the values in y based on their x-coordinates</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.bin_image_to_1D.html#nsls2.core.bin_image_to_1D" title="nsls2.core.bin_image_to_1D"><code class="xref py py-obj docutils literal"><span class="pre">bin_image_to_1D</span></code></a>(img,&nbsp;calibrated_center,&nbsp;...)</td>
-<td>Integrates an image to a 1D curve.</td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.wedge_integration.html#nsls2.core.wedge_integration" title="nsls2.core.wedge_integration"><code class="xref py py-obj docutils literal"><span class="pre">wedge_integration</span></code></a>(src_data,&nbsp;center,&nbsp;...)</td>
-<td>Implementation of caking.</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.grid3d.html#nsls2.core.grid3d" title="nsls2.core.grid3d"><code class="xref py py-obj docutils literal"><span class="pre">grid3d</span></code></a>(q,&nbsp;img_stack[,&nbsp;nx,&nbsp;ny,&nbsp;nz,&nbsp;xmin,&nbsp;...])</td>
-<td>Grid irregularly spaced data points onto a regular grid via histogramming</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="utility-functions">
-<h3>Utility functions<a class="headerlink" href="#utility-functions" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.bin_edges.html#nsls2.core.bin_edges" title="nsls2.core.bin_edges"><code class="xref py py-obj docutils literal"><span class="pre">bin_edges</span></code></a>([range_min,&nbsp;range_max,&nbsp;nbins,&nbsp;step])</td>
-<td>Generate bin edges.</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.bin_edges_to_centers.html#nsls2.core.bin_edges_to_centers" title="nsls2.core.bin_edges_to_centers"><code class="xref py py-obj docutils literal"><span class="pre">bin_edges_to_centers</span></code></a>(input_edges)</td>
-<td>Helper function for turning a array of bin edges into</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="section" id="helper-functions">
-<h2>Helper functions<a class="headerlink" href="#helper-functions" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.pairwise.html#nsls2.core.pairwise" title="nsls2.core.pairwise"><code class="xref py py-obj docutils literal"><span class="pre">pairwise</span></code></a>(iterable)</td>
-<td>s -&gt; (s0,s1), (s1,s2), (s2, s3), ...</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="physical-relations">
-<h2>Physical relations<a class="headerlink" href="#physical-relations" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.q_to_d.html#nsls2.core.q_to_d" title="nsls2.core.q_to_d"><code class="xref py py-obj docutils literal"><span class="pre">q_to_d</span></code></a>(q)</td>
-<td>Helper function to convert <span class="math">\(d\)</span> to <span class="math">\(q\)</span>.</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.d_to_q.html#nsls2.core.d_to_q" title="nsls2.core.d_to_q"><code class="xref py py-obj docutils literal"><span class="pre">d_to_q</span></code></a>(d)</td>
-<td>Helper function to convert <span class="math">\(d\)</span> to <span class="math">\(q\)</span>.</td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/nsls2.core.q_to_twotheta.html#nsls2.core.q_to_twotheta" title="nsls2.core.q_to_twotheta"><code class="xref py py-obj docutils literal"><span class="pre">q_to_twotheta</span></code></a>(q,&nbsp;wavelength)</td>
-<td>Helper function to convert <span class="math">\(q\)</span> + <span class="math">\(\lambda\)</span> to <span class="math">\(2\theta\)</span>.</td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/nsls2.core.twotheta_to_q.html#nsls2.core.twotheta_to_q" title="nsls2.core.twotheta_to_q"><code class="xref py py-obj docutils literal"><span class="pre">twotheta_to_q</span></code></a>(two_theta,&nbsp;wavelength)</td>
-<td>Helper function to convert <span class="math">\(2\theta\)</span> + <span class="math">\(\lambda\)</span> to <span class="math">\(q\)</span>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-
-
-          </div>
-        </div>
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          scikit-xray</a>
+        <span class="navbar-text navbar-version pull-left"><b>0</b></span>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="../../index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#"><code class="docutils literal"><span class="pre">core</span></code> Module</a><ul>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../tutorial.html">Tutorial</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction to scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installing scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html#updating-your-installation">Updating Your Installation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Complete Referece (API)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_guide/index.html">Development Guide</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#"><tt class="docutils literal"><span class="pre">core</span></tt> Module</a><ul>
 <li><a class="reference internal" href="#helper-classes">Helper Classes</a><ul>
 <li><a class="reference internal" href="#dictionary-like-classes">Dictionary-like classes</a></li>
 </ul>
@@ -224,62 +105,195 @@
 </ul>
 </li>
 </ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
 
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="index.html"
-                        title="previous chapter">API</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="generated/nsls2.core.MD_dict.html"
-                        title="next chapter">nsls2.core.MD_dict</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../_sources/resource/api/core.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
         </div>
-      </div>
-      <div class="clearer"></div>
     </div>
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="../../genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="../../py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="../../np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="generated/nsls2.core.MD_dict.html" title="nsls2.core.MD_dict"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="index.html" title="API"
-             >previous</a> |</li>
-        <li><a href="../../index.html">NSLS2 0 documentation</a> &raquo;</li>
-          <li><a href="index.html" >API</a> &raquo;</li> 
-      </ul>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="core-module">
+<h1><tt class="xref py py-mod docutils literal"><span class="pre">core</span></tt> Module<a class="headerlink" href="#core-module" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="helper-classes">
+<h2>Helper Classes<a class="headerlink" href="#helper-classes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dictionary-like-classes">
+<h3>Dictionary-like classes<a class="headerlink" href="#dictionary-like-classes" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.MD_dict.html#skxray.core.MD_dict" title="skxray.core.MD_dict"><tt class="xref py py-obj docutils literal"><span class="pre">MD_dict</span></tt></a>([md_dict])</td>
+<td>A class to make dealing with the meta-data scheme for DataExchange easier</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/skxray.core.verbosedict.html#skxray.core.verbosedict" title="skxray.core.verbosedict"><tt class="xref py py-obj docutils literal"><span class="pre">verbosedict</span></tt></a></td>
+<td>A sub-class of dict which raises more verbose errors if a key is not found.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.RCParamDict.html#skxray.core.RCParamDict" title="skxray.core.RCParamDict"><tt class="xref py py-obj docutils literal"><span class="pre">RCParamDict</span></tt></a>()</td>
+<td>A class to make dealing with storing default values easier.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="image-warping-functions">
+<h2>Image warping functions<a class="headerlink" href="#image-warping-functions" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.img_to_relative_xyi.html#skxray.core.img_to_relative_xyi" title="skxray.core.img_to_relative_xyi"><tt class="xref py py-obj docutils literal"><span class="pre">img_to_relative_xyi</span></tt></a>(img,&nbsp;cx,&nbsp;cy[,&nbsp;...])</td>
+<td>Convert the 2D image to a list of x y I coordinates where</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/skxray.core.pixel_to_radius.html#skxray.core.pixel_to_radius" title="skxray.core.pixel_to_radius"><tt class="xref py py-obj docutils literal"><span class="pre">pixel_to_radius</span></tt></a>(shape,&nbsp;calibrated_center[,&nbsp;...])</td>
+<td>Converts pixel positions to radius from the calibrated center</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.pixel_to_phi.html#skxray.core.pixel_to_phi" title="skxray.core.pixel_to_phi"><tt class="xref py py-obj docutils literal"><span class="pre">pixel_to_phi</span></tt></a>(shape,&nbsp;calibrated_center[,&nbsp;...])</td>
+<td>Converts pixel positions to <span class="math">\(\phi\)</span>, the angle from vertical.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="image-pre-processing">
+<h2>Image pre-processing<a class="headerlink" href="#image-pre-processing" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><tt class="xref py py-obj docutils literal"><span class="pre">img_subtraction_pre</span></tt></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="histograms-and-integration">
+<h2>Histograms and Integration<a class="headerlink" href="#histograms-and-integration" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="binning">
+<h3>Binning<a class="headerlink" href="#binning" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.bin_1D.html#skxray.core.bin_1D" title="skxray.core.bin_1D"><tt class="xref py py-obj docutils literal"><span class="pre">bin_1D</span></tt></a>(x,&nbsp;y[,&nbsp;nx,&nbsp;min_x,&nbsp;max_x])</td>
+<td>Bin the values in y based on their x-coordinates</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/skxray.core.wedge_integration.html#skxray.core.wedge_integration" title="skxray.core.wedge_integration"><tt class="xref py py-obj docutils literal"><span class="pre">wedge_integration</span></tt></a>(src_data,&nbsp;center,&nbsp;...)</td>
+<td>Implementation of caking.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.grid3d.html#skxray.core.grid3d" title="skxray.core.grid3d"><tt class="xref py py-obj docutils literal"><span class="pre">grid3d</span></tt></a>(q,&nbsp;img_stack[,&nbsp;nx,&nbsp;ny,&nbsp;nz,&nbsp;xmin,&nbsp;...])</td>
+<td>Grid irregularly spaced data points onto a regular grid via histogramming</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="utility-functions">
+<h3>Utility functions<a class="headerlink" href="#utility-functions" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.bin_edges.html#skxray.core.bin_edges" title="skxray.core.bin_edges"><tt class="xref py py-obj docutils literal"><span class="pre">bin_edges</span></tt></a>([range_min,&nbsp;range_max,&nbsp;nbins,&nbsp;step])</td>
+<td>Generate bin edges.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/skxray.core.bin_edges_to_centers.html#skxray.core.bin_edges_to_centers" title="skxray.core.bin_edges_to_centers"><tt class="xref py py-obj docutils literal"><span class="pre">bin_edges_to_centers</span></tt></a>(input_edges)</td>
+<td>Helper function for turning a array of bin edges into</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="helper-functions">
+<h2>Helper functions<a class="headerlink" href="#helper-functions" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.pairwise.html#skxray.core.pairwise" title="skxray.core.pairwise"><tt class="xref py py-obj docutils literal"><span class="pre">pairwise</span></tt></a>(iterable)</td>
+<td>s -&gt; (s0,s1), (s1,s2), (s2, s3), ...</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="physical-relations">
+<h2>Physical relations<a class="headerlink" href="#physical-relations" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.q_to_d.html#skxray.core.q_to_d" title="skxray.core.q_to_d"><tt class="xref py py-obj docutils literal"><span class="pre">q_to_d</span></tt></a>(q)</td>
+<td>Helper function to convert <span class="math">\(d\)</span> to <span class="math">\(q\)</span>.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/skxray.core.d_to_q.html#skxray.core.d_to_q" title="skxray.core.d_to_q"><tt class="xref py py-obj docutils literal"><span class="pre">d_to_q</span></tt></a>(d)</td>
+<td>Helper function to convert <span class="math">\(d\)</span> to <span class="math">\(q\)</span>.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/skxray.core.q_to_twotheta.html#skxray.core.q_to_twotheta" title="skxray.core.q_to_twotheta"><tt class="xref py py-obj docutils literal"><span class="pre">q_to_twotheta</span></tt></a>(q,&nbsp;wavelength)</td>
+<td>Helper function to convert <span class="math">\(q\)</span> + <span class="math">\(\lambda\)</span> to <span class="math">\(2\theta\)</span>.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/skxray.core.twotheta_to_q.html#skxray.core.twotheta_to_q" title="skxray.core.twotheta_to_q"><tt class="xref py py-obj docutils literal"><span class="pre">twotheta_to_q</span></tt></a>(two_theta,&nbsp;wavelength)</td>
+<td>Helper function to convert <span class="math">\(2\theta\)</span> + <span class="math">\(\lambda\)</span> to <span class="math">\(q\)</span>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
     </div>
-    <div class="footer" role="contentinfo">
-        &copy; Copyright 2014, Brookhaven National Lab.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
-    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../../_sources/resource/api/core.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014-2015 Brookhaven National Lab.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>

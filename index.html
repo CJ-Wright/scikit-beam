@@ -1,15 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Welcome to NSLS2’s documentation! &mdash; NSLS2 0 documentation</title>
+    <title>scikit-xray: Data Analysis Tools for X-ray Science &mdash; scikit-xray 0 documentation</title>
     
-    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.2.0/spacelab/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -23,131 +24,188 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="NSLS2 0 documentation" href="#" />
-    <link rel="next" title="API" href="resource/api/index.html" /> 
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="scikit-xray 0 documentation" href="#" />
+    <link rel="next" title="Introduction to scikit-xray" href="introduction.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
   </head>
-  <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="resource/api/index.html" title="API"
-             accesskey="N">next</a> |</li>
-        <li><a href="#">NSLS2 0 documentation</a> &raquo;</li> 
-      </ul>
-    </div>  
+  <body>
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          scikit-xray</a>
+        <span class="navbar-text navbar-version pull-left"><b>0</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
             
-  <div class="section" id="welcome-to-nsls2-s-documentation">
-<h1>Welcome to NSLS2&#8217;s documentation!<a class="headerlink" href="#welcome-to-nsls2-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>Contents:</p>
-<div class="toctree-wrapper compound">
+                <li><a href="tutorial.html">Tutorial</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction to scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installing scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#updating-your-installation">Updating Your Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resource/api/index.html">Complete Referece (API)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resource/dev_guide/index.html">Development Guide</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">scikit-xray: Data Analysis Tools for X-ray Science</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <style type="text/css">
+.thumbnail {{
+    position: relative;
+    float: left;
+    margin: 10px;
+    width: 180px;
+    height: 200px;
+}}
+
+.thumbnail img {{
+    position: absolute;
+    display: inline;
+    left: 0;
+    width: 170px;
+    height: 170px;
+}}
+
+</style><div class="section" id="scikit-xray-data-analysis-tools-for-x-ray-science">
+<h1>scikit-xray: Data Analysis Tools for X-ray Science<a class="headerlink" href="#scikit-xray-data-analysis-tools-for-x-ray-science" title="Permalink to this headline">¶</a></h1>
+<div style="clear: both"></div>
+<div class="container-fluid hidden-xs hidden-sm">
+  <div class="row">
+    <div class="col-md-2 thumbnail">
+    </div>
+    <div class="col-md-2 thumbnail">
+    </div>
+    <div class="col-md-2 thumbnail">
+    </div>
+    <div class="col-md-2 thumbnail">
+    </div>
+    <div class="col-md-2 thumbnail">
+    </div>
+    <div class="col-md-2 thumbnail">
+    </div>
+  </div>
+</div>
+<br><p>Scikit-xray is a Python package providing tools for X-ray science.
+For a brief introduction to the ideas behind the package, you can read the
+<a class="reference internal" href="introduction.html#introduction"><em>introductory notes</em></a>.</p>
+<p>Users who prefer drag-and-drop software may prefer to use
+<a class="reference external" href="http://www.vistrails.org/index.php/Main_Page">vistrails</a>, through which
+all the functionality of scikit-xray is also available.
+(Think LabView for X-ray image processing and data analysis.)</p>
+<p>The <a class="reference internal" href="tutorial.html#tutorial"><em>tutorial</em></a> walks through several experiments from start to
+finish &#8211; from the raw data to a publication-style plot. You can also browse
+the <em class="xref std std-ref">API reference</em> for a quick overview of all the available
+tools.</p>
+<p>To check out the code, report a bug, or contribute a new feature, please visit
+the <a class="reference external" href="https://github.com/Nikea/scikit-xray">github repository</a>.</p>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+<h2>Documentation</h2><div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="resource/api/index.html">API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/core.html"><code class="docutils literal"><span class="pre">core</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/image.html"><code class="docutils literal"><span class="pre">image</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/recip.html"><code class="docutils literal"><span class="pre">recip</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/spectroscopy.html"><code class="docutils literal"><span class="pre">spectroscopy</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/io/index.html">IO API</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/fitting/index.html">Fitting API</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/constants.html"><code class="docutils literal"><span class="pre">constants</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/api/calibration.html"><code class="docutils literal"><span class="pre">calibration</span></code> Module</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="resource/dev_guide/index.html">Development Guide</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="resource/dev_guide/git_guide.html">Introduction to Git</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/dev_guide/workflow.html">Git workflow</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/dev_guide/doc_doc.html">Documentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/dev_guide/adding_files.html">New Sub-packages and Modules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resource/dev_guide/logging.html">Logging</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction to scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installing scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#updating-your-installation">Updating Your Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resource/api/index.html">Complete Referece (API)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resource/dev_guide/index.html">Development Guide</a></li>
 </ul>
 </div>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
+<div class="col-md-6">
+<h2>Tutorial</h2></div>
 </div>
+</div></div>
 
 
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Welcome to NSLS2&#8217;s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
-</ul>
-
-  <h4>Next topic</h4>
-  <p class="topless"><a href="resource/api/index.html"
-                        title="next chapter">API</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/index.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="_sources/index.txt"
+     rel="nofollow">Source</a>
+</div>
+      
     </p>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="resource/api/index.html" title="API"
-             >next</a> |</li>
-        <li><a href="#">NSLS2 0 documentation</a> &raquo;</li> 
-      </ul>
-    </div>
-    <div class="footer" role="contentinfo">
-        &copy; Copyright 2014, Brookhaven National Lab.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
-    </div>
+    <p>
+        &copy; Copyright 2014-2015 Brookhaven National Lab.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>

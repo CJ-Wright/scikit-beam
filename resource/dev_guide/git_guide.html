@@ -1,15 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Introduction to Git &mdash; NSLS2 0 documentation</title>
+    <title>Introduction to Git &mdash; scikit-xray 0 documentation</title>
     
-    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootswatch-3.2.0/spacelab/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -23,48 +24,130 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="NSLS2 0 documentation" href="../../index.html" />
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="scikit-xray 0 documentation" href="../../index.html" />
     <link rel="up" title="Development Guide" href="index.html" />
     <link rel="next" title="Git workflow" href="workflow.html" />
-    <link rel="prev" title="Development Guide" href="index.html" /> 
-  </head>
-  <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="../../genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="../../py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="../../np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="workflow.html" title="Git workflow"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="index.html" title="Development Guide"
-             accesskey="P">previous</a> |</li>
-        <li><a href="../../index.html">NSLS2 0 documentation</a> &raquo;</li>
-          <li><a href="index.html" accesskey="U">Development Guide</a> &raquo;</li> 
-      </ul>
-    </div>  
+    <link rel="prev" title="Development Guide" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          scikit-xray</a>
+        <span class="navbar-text navbar-version pull-left"><b>0</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
             
+                <li><a href="../../tutorial.html">Tutorial</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction to scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installing scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html#updating-your-installation">Updating Your Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">Complete Referece (API)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Development Guide</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Introduction to Git</a><ul>
+<li><a class="reference internal" href="#configuring-git">Configuring git</a></li>
+<li><a class="reference internal" href="#forking-and-cloning">Forking and  Cloning</a></li>
+<li><a class="reference internal" href="#branching-and-committing">Branching and committing</a><ul>
+<li><a class="reference internal" href="#branching">Branching</a></li>
+<li><a class="reference internal" href="#editing-staging-committing">Editing, Staging, Committing</a></li>
+<li><a class="reference internal" href="#changing-branches">Changing Branches</a></li>
+<li><a class="reference internal" href="#reverting-edits">Reverting edits</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#collaborating">Collaborating</a><ul>
+<li><a class="reference internal" href="#remotes">Remotes</a><ul>
+<li><a class="reference internal" href="#fetch">Fetch</a></li>
+<li><a class="reference internal" href="#push">Push</a></li>
+<li><a class="reference internal" href="#merging">Merging</a></li>
+<li><a class="reference internal" href="#pull">Pull</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#rebase-on-to-master">Rebase on to master</a></li>
+<li><a class="reference internal" href="#help">Help</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
   <div class="section" id="introduction-to-git">
 <span id="git-guide"></span><h1>Introduction to Git<a class="headerlink" href="#introduction-to-git" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="configuring-git">
 <h2>Configuring git<a class="headerlink" href="#configuring-git" title="Permalink to this headline">¶</a></h2>
 <p>There are many resources on the web for how to use and configure
-<em class="xref py py-obj">git</em>, this is a streamlined reference for use at NSLS-II.  There
-is a variety of gui front ends for <em class="xref py py-obj">git</em>, this will demonstrate the
+<cite>git</cite>, this is a streamlined reference for use at NSLS-II.  There
+is a variety of gui front ends for <cite>git</cite>, this will demonstrate the
 command line usage as the lowest-common-denominator.  On windows and
 OSX the github applications seems pretty slick and integrates well with
 the website.</p>
@@ -73,9 +156,9 @@ is best to generate an ssh key pair which will allow see
 <a class="reference external" href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a> for a
 guide of how to generate and upload the keys to github.  If you are
 working on a computer on the controls network ssh will not work.</p>
-<p>The global behavior of <em class="xref py py-obj">git</em> in controlled through <em class="xref py py-obj">gitconfig</em>
-(<em class="xref py py-obj">C:UsersMyLogin.gitconfig</em> on Windows), which can edited either
-directly, or through the command line (<em class="xref py py-obj">git config &#8211;global ...</em>).
+<p>The global behavior of <cite>git</cite> in controlled through <cite>~/.gitconfig</cite>
+(<cite>C:UsersMyLogin.gitconfig</cite> on Windows), which can edited either
+directly, or through the command line (<cite>git config &#8211;global ...</cite>).
 This is as sugested global configuration file</p>
 <div class="highlight-python"><div class="highlight"><pre>[user]
      name = Your Name
@@ -108,7 +191,7 @@ cd ~/my_source     # but this is the scheme I use
 git clone git@github.com:github_user_name/repository_name.git
 </pre></div>
 </div>
-<p>where <em class="xref py py-obj">github_user_name</em> is replaced with your user name.  You may be
+<p>where <cite>github_user_name</cite> is replaced with your user name.  You may be
 asked to unlock your sshkey or authenticate in some way and to accept
 the RSA key of the remote host (say yes).  Once you have done this you
 should have a directory in your current directory which contains the
@@ -116,7 +199,7 @@ most up-to-date version of the code.</p>
 </div>
 <div class="section" id="branching-and-committing">
 <h2>Branching and committing<a class="headerlink" href="#branching-and-committing" title="Permalink to this headline">¶</a></h2>
-<p><em class="xref py py-obj">git</em> stores the history of code as a series of &#8216;snapshots&#8217; of the
+<p><cite>git</cite> stores the history of code as a series of &#8216;snapshots&#8217; of the
 project, <strong>commit</strong>s, in a tree.  Each <strong>commit</strong> has a unique
 identifier generated from it&#8217;s contents.  A <strong>branch</strong> points to a
 single commit and provides a human-readable label for a &#8216;snapshot&#8217; in
@@ -240,13 +323,13 @@ Added text about basic git usage.
 </div>
 <div class="section" id="changing-branches">
 <h3>Changing Branches<a class="headerlink" href="#changing-branches" title="Permalink to this headline">¶</a></h3>
-<p>The files in the repository directory are what <em class="xref py py-obj">git</em> refers to as you
-<strong>working copy</strong>.  When you switch <strong>branch</strong>es <em class="xref py py-obj">git</em> will make your
+<p>The files in the repository directory are what <cite>git</cite> refers to as you
+<strong>working copy</strong>.  When you switch <strong>branch</strong>es <cite>git</cite> will make your
 working copy look exactly like the snapshot saved in the <strong>commit</strong>
 the <strong>branch</strong> points to.  For example say you are working on
 <strong>branch</strong> <em>new_feature</em> and you notice an un-related bug.  You should
 <strong>commit</strong> all of your feature work (or use <strong>stash</strong>) and then switch back
-to the <em class="xref py py-obj">master</em> branch</p>
+to the <cite>master</cite> branch</p>
 <div class="highlight-python"><div class="highlight"><pre>git checkout master
 </pre></div>
 </div>
@@ -270,7 +353,7 @@ a single file</p>
 <div class="highlight-python"><div class="highlight"><pre>git checkout -- file_name
 </pre></div>
 </div>
-<p>(the space between <em class="xref py py-obj">&#8211;</em> and <em class="xref py py-obj">file_name</em> is important) will reset the
+<p>(the space between <cite>&#8211;</cite> and <cite>file_name</cite> is important) will reset the
 file to what it looks like on the current branch.  To throw out
 <em>all</em> of your changes and reset your working directory to the last
 commit on your branch</p>
@@ -287,10 +370,10 @@ commit on your branch</p>
 clones of a repository are <em>technically</em> equivolent.  However, for
 organizational reasons we desigante one to be the &#8216;canonical&#8217;
 repository, in this case the repository associated with the
-<code class="docutils literal"><span class="pre">NSLS-II</span></code> group on github.</p>
+<tt class="docutils literal"><span class="pre">NSLS-II</span></tt> group on github.</p>
 <p>In order to get the lastest code from github to your local machine you
-need to tell <code class="docutils literal"><span class="pre">git</span></code> where the other code is.  These locations are, in
-the langague of <code class="docutils literal"><span class="pre">git</span></code>, <strong>remotes</strong>.  The first remote we will want to
+need to tell <tt class="docutils literal"><span class="pre">git</span></tt> where the other code is.  These locations are, in
+the langague of <tt class="docutils literal"><span class="pre">git</span></tt>, <strong>remotes</strong>.  The first remote we will want to
 add in the canonical repository:</p>
 <div class="highlight-python"><div class="highlight"><pre># make sure you are in the working directory of your local repo
 cd ~/my_source/repo_name
@@ -312,7 +395,7 @@ upstream        git@github.com:NSLS-II/pyRafters.git (push)
 </pre></div>
 </div>
 <p>which shows two remotes (origin and upstream).  It is recommended to
-re-name <code class="docutils literal"><span class="pre">origin</span></code> -&gt; your github username</p>
+re-name <tt class="docutils literal"><span class="pre">origin</span></tt> -&gt; your github username</p>
 <div class="highlight-python"><div class="highlight"><pre>git remote rename origin gh_username
 </pre></div>
 </div>
@@ -332,7 +415,7 @@ to <strong>fetch</strong> from as a <strong>remote</strong></p>
 </div>
 <p>which will copy all of the commits in the <strong>remote</strong> repository that
 are not already in your local repository.   This does not change your
-<strong>working copy</strong>, only updates what <strong>commit</strong>s <em class="xref py py-obj">git</em> knows about.</p>
+<strong>working copy</strong>, only updates what <strong>commit</strong>s <cite>git</cite> knows about.</p>
 <p>To checkout a local copy of a remote <strong>branch</strong></p>
 <div class="highlight-python"><div class="highlight"><pre>git checkout -t remote_name/remote_branch
 </pre></div>
@@ -342,7 +425,7 @@ are not already in your local repository.   This does not change your
 <div class="section" id="push">
 <h4>Push<a class="headerlink" href="#push" title="Permalink to this headline">¶</a></h4>
 <p><strong>push</strong> is the symmetric operation to <strong>fetch</strong> as ships commits <em>to</em>
-a remote.   The first time you <strong>push</strong> a <strong>branch</strong> you need to tell <em class="xref py py-obj">git</em>
+a remote.   The first time you <strong>push</strong> a <strong>branch</strong> you need to tell <cite>git</cite>
 which branch on the <strong>remote</strong> to push to:</p>
 <div class="highlight-python"><div class="highlight"><pre>git push --set-upstream a_remote branch_name
 </pre></div>
@@ -363,7 +446,7 @@ can <strong>fetch</strong> them and begin to work with them.</p>
 </div>
 <p>If your current branch has no commits that are not in <em>merge_source</em>
 it is called a &#8216;fast-forward&#8217; merge and will always succeed.  If your
-local branch has commits that are not in <em class="xref py py-obj">merge_source</em> the merge can
+local branch has commits that are not in <cite>merge_source</cite> the merge can
 generate conflicts which will need to resolved by hand.</p>
 </div>
 <div class="section" id="pull">
@@ -386,94 +469,28 @@ generate conflicts which will need to resolved by hand.</p>
 </div>
 
 
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="../../index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Introduction to Git</a><ul>
-<li><a class="reference internal" href="#configuring-git">Configuring git</a></li>
-<li><a class="reference internal" href="#forking-and-cloning">Forking and  Cloning</a></li>
-<li><a class="reference internal" href="#branching-and-committing">Branching and committing</a><ul>
-<li><a class="reference internal" href="#branching">Branching</a></li>
-<li><a class="reference internal" href="#editing-staging-committing">Editing, Staging, Committing</a></li>
-<li><a class="reference internal" href="#changing-branches">Changing Branches</a></li>
-<li><a class="reference internal" href="#reverting-edits">Reverting edits</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#collaborating">Collaborating</a><ul>
-<li><a class="reference internal" href="#remotes">Remotes</a><ul>
-<li><a class="reference internal" href="#fetch">Fetch</a></li>
-<li><a class="reference internal" href="#push">Push</a></li>
-<li><a class="reference internal" href="#merging">Merging</a></li>
-<li><a class="reference internal" href="#pull">Pull</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a class="reference internal" href="#rebase-on-to-master">Rebase on to master</a></li>
-<li><a class="reference internal" href="#help">Help</a></li>
-</ul>
-</li>
-</ul>
-
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="index.html"
-                        title="previous chapter">Development Guide</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="workflow.html"
-                        title="next chapter">Git workflow</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../_sources/resource/dev_guide/git_guide.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
+    </div>
+      
+  </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="../../genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="../../py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="../../np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="workflow.html" title="Git workflow"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="index.html" title="Development Guide"
-             >previous</a> |</li>
-        <li><a href="../../index.html">NSLS2 0 documentation</a> &raquo;</li>
-          <li><a href="index.html" >Development Guide</a> &raquo;</li> 
-      </ul>
-    </div>
-    <div class="footer" role="contentinfo">
-        &copy; Copyright 2014, Brookhaven National Lab.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
-    </div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../../_sources/resource/dev_guide/git_guide.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014-2015 Brookhaven National Lab.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>

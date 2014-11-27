@@ -1,15 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>API &mdash; NSLS2 0 documentation</title>
+    <title>Complete Referece (API) &mdash; scikit-xray 0 documentation</title>
     
-    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootswatch-3.2.0/spacelab/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -23,45 +24,105 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="NSLS2 0 documentation" href="../../index.html" />
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="scikit-xray 0 documentation" href="../../index.html" />
     <link rel="next" title="core Module" href="core.html" />
-    <link rel="prev" title="Welcome to NSLS2’s documentation!" href="../../index.html" /> 
-  </head>
-  <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="../../genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="../../py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="../../np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="core.html" title="core Module"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="../../index.html" title="Welcome to NSLS2’s documentation!"
-             accesskey="P">previous</a> |</li>
-        <li><a href="../../index.html">NSLS2 0 documentation</a> &raquo;</li> 
-      </ul>
-    </div>  
+    <link rel="prev" title="Installing scikit-xray" href="../../installation.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          scikit-xray</a>
+        <span class="navbar-text navbar-version pull-left"><b>0</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
             
-  <div class="section" id="api">
-<h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
+                <li><a href="../../tutorial.html">Tutorial</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction to scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installing scikit-xray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html#updating-your-installation">Updating Your Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Complete Referece (API)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_guide/index.html">Development Guide</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Complete Referece (API)</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="complete-referece-api">
+<h1>Complete Referece (API)<a class="headerlink" href="#complete-referece-api" title="Permalink to this headline">¶</a></h1>
 <p>Contents:</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="core.html"><code class="docutils literal"><span class="pre">core</span></code> Module</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="core.html"><tt class="docutils literal"><span class="pre">core</span></tt> Module</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="core.html#helper-classes">Helper Classes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="core.html#image-warping-functions">Image warping functions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="core.html#image-pre-processing">Image pre-processing</a></li>
@@ -70,25 +131,25 @@
 <li class="toctree-l2"><a class="reference internal" href="core.html#physical-relations">Physical relations</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="image.html"><code class="docutils literal"><span class="pre">image</span></code> Module</a></li>
-<li class="toctree-l1"><a class="reference internal" href="recip.html"><code class="docutils literal"><span class="pre">recip</span></code> Module</a></li>
-<li class="toctree-l1"><a class="reference internal" href="spectroscopy.html"><code class="docutils literal"><span class="pre">spectroscopy</span></code> Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image.html"><tt class="docutils literal"><span class="pre">image</span></tt> Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recip.html"><tt class="docutils literal"><span class="pre">recip</span></tt> Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dpc.html"><tt class="docutils literal"><span class="pre">dpc</span></tt> Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spectroscopy.html"><tt class="docutils literal"><span class="pre">spectroscopy</span></tt> Module</a></li>
 <li class="toctree-l1"><a class="reference internal" href="io/index.html">IO API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="io/binary.html"><code class="docutils literal"><span class="pre">io.binary</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="io/spec_to_nsls2.html"><code class="docutils literal"><span class="pre">io.spec_to_nsls2</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="io/binary.html"><tt class="docutils literal"><span class="pre">io.binary</span></tt> Module</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="fitting/index.html">Fitting API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="fitting/model/background.html"><code class="docutils literal"><span class="pre">fitting.model.background</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fitting/model/physics_peak.html"><code class="docutils literal"><span class="pre">fitting.model.physics_peak</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fitting/model/background.html"><tt class="docutils literal"><span class="pre">fitting.model.background</span></tt> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fitting/model/physics_peak.html"><tt class="docutils literal"><span class="pre">fitting.model.physics_peak</span></tt> Module</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="constants.html"><code class="docutils literal"><span class="pre">constants</span></code> Module</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="constants.html"><tt class="docutils literal"><span class="pre">constants</span></tt> Module</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="constants.html#elemental-data">Elemental data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="constants.html#powder-diffraction-standards">Powder Diffraction Standards</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="calibration.html"><code class="docutils literal"><span class="pre">calibration</span></code> Module</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="calibration.html"><tt class="docutils literal"><span class="pre">calibration</span></tt> Module</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="calibration.html#demos">Demos</a></li>
 </ul>
 </li>
@@ -97,65 +158,28 @@
 </div>
 
 
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="../../index.html"
-                        title="previous chapter">Welcome to NSLS2&#8217;s documentation!</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="core.html"
-                        title="next chapter"><code class="docutils literal"><span class="pre">core</span></code> Module</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../_sources/resource/api/index.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
+    </div>
+      
+  </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="../../genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="../../py-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="../../np-modindex.html" title="Python Module Index"
-             >modules</a> |</li>
-        <li class="right" >
-          <a href="core.html" title="core Module"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="../../index.html" title="Welcome to NSLS2’s documentation!"
-             >previous</a> |</li>
-        <li><a href="../../index.html">NSLS2 0 documentation</a> &raquo;</li> 
-      </ul>
-    </div>
-    <div class="footer" role="contentinfo">
-        &copy; Copyright 2014, Brookhaven National Lab.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
-    </div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../../_sources/resource/api/index.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014-2015 Brookhaven National Lab.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>
